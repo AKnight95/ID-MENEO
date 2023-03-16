@@ -1,8 +1,16 @@
 <?php
-for($i=0;$i<=5;$i++){        
-    for($j=0;$j<=$i;$j++){
-        echo "X";
+
+    $number = $_POST['number'];
+
+    for($i=1;$i<=$number;$i++){
+        for($j=1;$j<=$number-$i;$j++){
+            echo "&nbsp;&nbsp;";
+        }
+        for($k=1;$k<=$i;$k++){
+            echo "X&nbsp;&nbsp;";
+        }
+            echo "<br />";
     }
-    echo "<br/>";
-}
+    
+
 ?>
