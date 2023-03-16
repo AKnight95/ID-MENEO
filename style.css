@@ -1,0 +1,138 @@
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+nav{
+    height: 6rem;
+    background-color: white;
+}
+
+.navbar-collapse{
+    background-color: white;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.navbar-brand:hover{
+    color: #40b4a4;
+}
+
+#navbarDropdown:hover, #navbarDropdown:active, #navbarDropdown:focus{
+    color: #40b4a4;
+}
+
+.dropdown-menu-center {
+    right: auto;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+footer{
+    background-color: #40b4a4;
+}
+
+.btn {
+    background-color: #40b4a4;
+    color: white;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+.btn:hover{
+    background-color: #388c7c;
+    color: white;
+}
+
+
+.navbar-brand{
+    letter-spacing: 4px;
+}
+
+.nav-link{
+    color: black;
+    letter-spacing: 1px;
+}
+
+.navbar-brand{
+    color: #40b4a4;
+}
+
+#dropdown1:hover{
+    color: white;
+    background-color: #40b4a4;
+}
+
+#carouselExampleCaptions {
+    height: 30rem;
+}
+
+.carousel-caption {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0rem;
+}
+
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+}
+
+#carousel-btn {
+    position: absolute;
+    bottom: 25%;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active{
+    background-color: #40b4a4;
+}
+
+.carousel-indicators [data-bs-target]{
+    opacity: 1;
+}
+
+.section-img{
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.container{
+    height: 18rem;
+}
+
+.navbar-toggler{
+    color: black;
+}
+
+
+@media (max-width: 992px){
+
+    .section-img{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        flex-direction: column;
+    }
+
+    .container{
+        height: auto;
+    }
+}
